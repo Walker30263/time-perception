@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@900&family=Montserrat:wght@300&family=Oxanium:wght@300&display=swap');
+
+* {
+  font-family: 'Oxanium', sans-serif;
+}
+
+body {
+  background-color: #121212;
+  color: #bb86fc;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  font-size: 0.75em; 
+  padding: 15px;
+}
+
+#gameContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeButton {
+  background-color:#03dac5;
+	border-radius:19px;
+	border:2px solid #6f00ff;
+	display:inline-block;
+	color:#000000;
+	font-size:50px;
+	padding:32px 46px;
+  margin: 1%;
+	text-decoration:none;
+}
+
+.timeButton:hover {
+  background-color:#7bfff2;
+}
